@@ -1,6 +1,5 @@
 # examination
 
-
 [![Current Version](https://img.shields.io/npm/v/examination.svg)](https://www.npmjs.org/package/examination)
 [![Build Status via Travis CI](https://travis-ci.org/continuationlabs/examination.svg?branch=master)](https://travis-ci.org/continuationlabs/examination)
 ![Dependencies](http://img.shields.io/david/continuationlabs/examination.svg)
@@ -50,7 +49,7 @@ bound();
       - `heapdump` (boolean) - If `true`, a heap snapshot will be written to `directory`. Defaults to `false`.
       - `report` (boolean) - If `true`, a diagnostics report will be written to `directory`. Defaults to `false`.
       - `core` (boolean) - If `true`, an archive containing a core file and all loaded native libraries will be written to `directory`. Defaults to `false`. Note that generating these files in particular will take time and consume considerable disk space.
-      - `error` (error) -
+      - `error` (error) - If an error is included, it is included in the `node-report` diagnostics.
     - `callback` (function) - A function that is called after all artifacts have been created. This function takes the following arguments.
       - `err` (error) - Represents any error that occurs. Note that the artifacts are created in parallel, so it is possible to receive an error here and still have one or more output files written.
   - Returns
