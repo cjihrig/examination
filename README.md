@@ -3,8 +3,8 @@
 [![Current Version](https://img.shields.io/npm/v/examination.svg)](https://www.npmjs.org/package/examination)
 [![Build Status via Travis CI](https://travis-ci.org/continuationlabs/examination.svg?branch=master)](https://travis-ci.org/continuationlabs/examination)
 ![Dependencies](http://img.shields.io/david/continuationlabs/examination.svg)
+[![belly-button-style](https://img.shields.io/badge/eslint-bellybutton-4B32C3.svg)](https://github.com/continuationlabs/belly-button)
 
-[![belly-button-style](https://cdn.rawgit.com/continuationlabs/belly-button/master/badge.svg)](https://github.com/continuationlabs/belly-button)
 
 Thoroughly examine the state of a Node.js process. `examination` allows a [heap snapshot](https://www.npmjs.com/package/heapdump), [diagnostics report](https://www.npmjs.com/package/node-report), and [core dump](https://www.npmjs.com/package/gencore) to be generated and written to an output directory with a single function call.
 
